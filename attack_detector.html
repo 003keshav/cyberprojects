@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deauth DoS Attack Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Deauth DoS Attack Detector</h2>
+        <button id="start-button">Start Detection</button>
+        <div id="status" class="hidden">Detection in progress...</div>
+        <div id="results" class="hidden">
+            <h3>Detected Attacks:</h3>
+            <ul id="attack-list"></ul>
+        </div>
+        <button onclick="window.location.href='index.html'">Back to Main Page</button>
+    </div>
+    <script src="attack_detector.js"></script>
+</body>
+</html>
